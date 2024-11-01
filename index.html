@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>BOOK LIBRARY</h1>
+
+      <!-- Form to get information about book -->
+      <form id="myForm">
+        <label for="bname">Name of a book:</label>
+        <input type="text" id="bname" name="Book name" />
+        <label for="aname">Author:</label>
+        <input type="text" id="aname" name="Author" />
+        <label for="pages">Number of pages:</label>
+        <input type="text" id="pages" name="Pages" />
+
+        <label for="Checkbox">Read:</label>
+        <input type="checkbox" name="Checkbox" id="checkbox" />
+        <input class="btn" type="button" value="Add book" />
+      </form>
+    </div>
+
+    <!-- List of books -->
+    <div class="list">
+      <h1>LIST OF BOOKS</h1>
+      <table id="table">
+        <tr class="table-header">
+          <th>BOOK</th>
+          <th>AUTHOR</th>
+          <th>PAGES</th>
+          <th>READ</th>
+          <th>REMOVE</th>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
